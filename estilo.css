@@ -1,0 +1,81 @@
+/*cambiar tipo de letra*/
+*{
+	font-family: 'Overpass', sans-serif;
+}
+
+/*fondo del body*/
+body{
+	background-color:skyblue;
+}
+
+/*cambiar estilo de h1 y h2*/
+h1{
+	font-size:1.7em;
+	color:#A65212;
+}
+
+h2{
+	font-size:1.2em;
+	color:#63d541;
+}
+
+/*remover las vinetas*/
+ul{
+	list-style:none;
+}
+
+/*tamaño y centrado del div container*/
+.container{
+	width:700px;
+	height:500px;
+	margin:auto;
+	margin-top:50px;
+	background-color:rgba(250,250,255,0.7);
+	box-shadow:5px 5px 2px #808080 , -2px -2px 2px #808080;
+	border-radius:20px;
+	text-align:center;
+}
+/*linea en el label de las tareas completadas*/
+#completed-tasks label{
+	border-top:solid 5px yellow;
+}
+
+/*personalizacion de botones*/
+button{
+	width:80px;
+	height:30px;
+	color:#dfdfdf;
+}
+
+button.add{
+	background-color:#27DF67;
+}
+
+button.edit{
+	background-color:#2899D1;
+}
+
+button.delete{
+	background-color:#DE1F3F;
+}
+
+/*personalizacion de cuadros de textos*/
+
+input{
+	margin:2px 2px 2px 2px;
+}
+
+input#new-task{
+	width:200px;
+	height:30px;
+	border-color:#B1F900;
+	border-radius:10px;
+	transition:300ms;
+}
+
+input#new-task:hover{
+	border-color:#F22104;
+	transform:scale(1.1);
+	box-shadow:2px 2px 2px #808080, -2px -2px 2px #808080;
+	cursor: pointer;
+}
